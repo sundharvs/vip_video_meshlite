@@ -1,0 +1,33 @@
+dependencies:
+  espressif/cmake_utilities:
+    component_hash: 4ab5387a48485bcddde419b2cb72370b4baf8da10e63d8cd14707715de50d2ed
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.4.3
+  espressif/esp_modem:
+    component_hash: 39f97701c327104ad19b55086e3aca1c47bd9d6f7f15c44eed32d0b06cdc3616
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.1.28
+  espressif/iot_bridge:
+    component_hash: 0aa9ad420993af4104810fad3a5d56044a7c542b7073e30c7c11fbabd3eca95c
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.4.0
+  espressif/mesh_lite:
+    component_hash: 5b26912d9a4b76ea51f84d83d07f410a24bcf3855b5f43e4f0abcb7e34f0402a
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.1.1
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 4.4.4
+manifest_hash: d9de0b60dd6ac80e3fe46035c5dbaac55bbf3e1b32f022e86351ae705d895a3e
+target: esp32
+version: 1.0.0
